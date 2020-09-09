@@ -1,0 +1,2128 @@
+
+* {
+letter-spacing: 1px;
+margin:0;
+padding:0;
+}
+
+
+.ib {
+display: inline-block;
+}
+
+
+.wrap {
+overflow: hidden;
+}
+
+
+.first-view-wrapper {
+background-image: url("isara image/main.jpg");
+background-repeat: no-repeat;
+background-size:cover;     /*背景画像を全体に設定*/
+background-position: center;
+display: table;
+width: 100%;
+height:500px;
+}
+
+
+.header-wrapper {
+width:100%;
+z-index: 999;
+position: relative;
+display:inline-flex;
+height:75px;
+display: flex;
+align-items: flex-end;
+padding:0 10px;
+position:fixed;
+}
+
+
+
+
+.header-wrapper img {
+height:60%;
+display: block;
+margin-bottom: 15px;
+margin-left:3%;
+}
+
+
+
+.ikusei{
+display: inline-block;
+font-size:14px;
+font-weight: 550;
+padding-bottom: 2px;
+}
+
+
+
+
+.antei-wrapper {
+display: table-cell;               /*vertical align　とセット*/
+vertical-align: middle;
+text-align:center;
+}
+
+
+.antei-wrapper img {
+margin-left: 40px;
+margin-bottom: 50px;
+}
+
+
+
+.antei {
+font-size:27px;
+font-weight: bold;
+line-height: 50px;
+}
+
+
+.isara {
+font-size:100px;
+display:inline;
+margin-left:20px;
+
+}
+
+
+.header-left {
+margin-top:-50px;
+}
+
+
+.bangkok {
+font-size:20px;
+font-weight: bold;
+}
+
+
+.karashi-wrapper {
+height:auto;
+padding-bottom:20px;
+background-color:#EBB94D;
+text-align: center;               /*親のdiv要素にかければ、小要素のテキスト全て中央に揃う*/
+}
+
+
+.twenty {
+color:white;
+padding-top:30px;
+font-size:20px;
+}
+
+
+.red-text {
+color:#C7254E;
+background-color: #F9F2F4;
+display: inline-block;
+font-weight: bold;
+padding:0 3px;
+border-radius:3px;
+}
+
+
+
+
+.apply-book {
+background-color: #DA6B64;
+color:white;
+padding:30px 25% ;
+border-radius: 50px;
+display: inline-block;
+font-size:23px;
+font-weight: bolder;
+margin-top:10px;
+margin-bottom: -30px;
+
+}
+
+
+.six-semester {
+margin-top:80px;
+color:white;
+font-size:25px;
+}
+
+
+.seven-semester {
+color:white;
+font-size:25px;
+}
+
+
+.eight-semester {
+color:white;
+font-size:25px;
+}
+
+
+
+
+
+
+.tweet-like-share {
+display:inline-flex;     /*inlineで*/
+padding : 0;             /*liの左余白を消す*/
+}
+
+
+.tweet-like-share li{
+width: 70px;                    /*各li要素の幅を固定*/
+background-color: #1877F2;
+list-style:none;
+margin:0 5px;
+font-size:13px;
+color: white;
+}
+
+
+
+
+
+.road-wrapper {
+background-image: url("isara image/road.jpg");
+height:auto;
+text-align: center;
+background-repeat: no-repeat;
+background-size:cover; 
+padding-bottom: 100px;
+background-position:center ;
+}
+
+
+.real-freedom {
+font-size:28px;
+display:inline-block;
+padding:30px 60px;
+margin-top: 40px;
+font-weight: bolder;
+margin:5% 5%;
+}
+
+
+.real-freedom{
+position:relative;　
+}
+
+.real-freedom::before, .real-freedom::after{
+content: '';
+width: 50px;
+height: 50px;
+position: absolute;
+}
+.real-freedom::before{
+border-left: solid 3px #ebb94d;
+border-top: solid 3px #ebb94d;
+top: 0;
+left: 0;
+}
+.real-freedom::after{
+border-right: solid 3px #ebb94d;
+border-bottom: solid 3px #ebb94d;
+bottom: 0;
+right: 0;
+}
+
+
+
+
+
+.real-freedom-detail {
+font-size:20px;
+margin:25px 0;
+}
+
+
+
+.ability{
+font-size:20px;
+color:black;
+font-weight:bolder;
+background: linear-gradient(rgba(255,255,255,0) 70%, #ebb94d 70%);
+}
+
+
+.skill-wrapper {
+margin:0 18px;
+display: inline-block;
+
+}
+
+
+.skill-wrapper img {
+height:55px;
+}
+
+
+.skill-wrapper p {
+font-size:12px;
+margin-top:10px;
+}
+
+
+.isara-wrapper {              /*全体の背景*/
+background-color:#FEF5E0;
+text-align:center;
+height:auto;
+position:relative;
+padding-bottom: 60px;
+}
+
+
+.about-wrapper {
+background:green;
+display:inline-block;
+
+}
+
+
+.about-circle {
+position: relative;                  /*ABOUTの円を背景画像に重ねる*/
+top: -40px;
+}
+
+
+.about-circle p.about {
+display:inline-block;
+background:#ebb94d;
+color:white;
+height:80px;
+width:80px;
+border-radius:100%;
+padding-top:27px;
+text-align: center;
+margin:0 auto;
+
+
+}
+
+
+.whats-isara {
+font-size:29px;
+display:inline-block;
+margin-top:10px;
+margin-bottom:40px;
+padding:20px 250px;
+font-weight:bolder;
+}
+
+.isara-towa{
+position:relative;　
+}
+
+.isara-towa::before, .isara-towa::after{
+content: '';
+width: 50px;
+height: 50px;
+position: absolute;
+}
+.isara-towa::before{
+border-left: solid 3px #ebb94d;
+border-top: solid 3px #ebb94d;
+top: 0;
+left: 0;
+}
+.isara-towa::after{
+border-right: solid 3px #ebb94d;
+border-bottom: solid 3px #ebb94d;
+bottom: 0;
+right: 0;
+}
+
+
+
+
+
+
+.focus {
+font-size:23px;
+font-weight: 600;
+margin-bottom: 30px;
+}
+
+
+.five-skills {
+background:white;
+border:2px solid rgb(235,185,77);
+border-radius: 3px;
+width:90%;
+margin:0 auto;   
+height:auto;  
+}
+
+
+.whats-skill{
+font-size:20px;
+font-weight:bolder;
+margin-top:30px;
+}
+
+
+.five-skills-wrapper {
+display:inline-flex;                /*インラインとフレックス　同時*/  
+margin-top:20px; 
+height:auto;
+flex-wrap: wrap;                /*親要素にかける*/
+}
+
+
+.five-skills-bigger-wrapper {
+padding-bottom:40px;
+}
+
+
+.not-teach-wrapper  {
+background-image: url("isara image/hands.jpg"); 
+background-repeat: no-repeat;
+background-size:cover;     /*背景画像を全体に設定*/
+height:auto;
+}
+
+
+.not-teach {
+color:white;
+text-align:center;
+font-size: 30px;
+padding-top:50px;
+}
+
+
+.learnable-era {
+color:white;
+text-align:center;
+font-size: 20px;
+}
+
+
+.kadai-support {
+color:rgb(235,185,77);
+font-size: 20px;
+}
+
+
+.all-steps-wrapper{
+text-align:center;
+}
+
+
+.step-wrapper {
+background-color:white;
+display:inline-block;
+height:180px;
+width:375px;
+border-radius:5px;
+text-align:center;
+margin:0 5px;
+}
+
+
+.step {
+background-color: rgb(235,185,77);
+color:white;
+font-weight: bolder;
+display: inline-block;
+padding:1px 130px;
+margin-top:30px;
+margin-bottom: 30px;
+border-radius: 4px;
+}
+
+
+.three-bangkok {
+font-weight:bolder;
+}
+
+
+.learn-basic {
+font-weight:bolder;
+}
+
+
+.hard-wrapper {
+text-align: center; 
+margin-top:-40px;
+}
+
+
+.hard {
+background-color: #026EA9;
+height:auto;
+width:100%;
+margin-top:87px;
+color: white;
+font-weight: bolder;
+font-size: 20px;
+padding:4% 0;
+
+}
+
+
+.can-learn-wrapper {
+height:auto;
+text-align:center;
+margin-bottom: 50px;
+}
+
+
+.can-learn {
+font-size:30px;
+font-weight: 600; 
+margin-top:50px;
+margin-bottom:30px;
+}
+
+.can-learn span {
+color: black;
+font-size:17px;
+}
+
+
+.needed-skill {
+font-size: 20px;
+}
+
+
+.three-merits-wrapper {
+height:auto;
+background-color: #FEF5E0;
+text-align: center;
+padding-bottom: 50px;
+}
+
+
+.different-isara-merit-wrapper {
+
+font-size:30px;
+display:inline-block;
+margin-top:50px;
+margin-bottom:10px;
+padding:20px 15%; 
+position:relative;　
+}
+
+
+
+
+.different-isara-merit-wrapper::before, .different-isara-merit-wrapper::after{
+content: '';
+width: 50px;
+height: 50px;
+position: absolute;
+}
+.different-isara-merit-wrapper::before{
+border-left: solid 3px #ebb94d;
+border-top: solid 3px #ebb94d;
+top: 0;
+left: 0;
+}
+.different-isara-merit-wrapper::after{
+border-right: solid 3px #ebb94d;
+border-bottom: solid 3px #ebb94d;
+bottom: 0;
+right: 0;
+}
+
+
+
+.key-line {
+display: block;
+margin:0 auto;
+}
+
+
+
+
+.different {
+font-size:20px;
+font-weight: bolder;
+}
+
+
+.isara-merit {
+font-size:30px;
+font-weight: bolder;
+}
+
+
+
+.members-wrapper {
+background-image: url("isara image/teacherbg.jpg"); 
+text-align: center;
+height:auto;
+background-repeat: no-repeat;
+background-size:cover;     /*背景画像を全体に設定*/
+}
+
+
+.members-wrapper-inside {
+    text-align: center;
+    margin:0 auto;
+    width:70%
+    }
+
+
+.one-member-wrapper {
+display:inline-block;
+margin:20px;
+}
+
+
+
+.one-member-container {
+    display:inline-block;
+    border:solid 2px white;
+    color:white;
+    width:100%;
+    height:auto;
+    position: relative;
+    margin-top:150px;
+    max-width:375px;
+    z-index: 1;　　　　　　　　　　　　　/*染谷氏の写真を前面に*/
+    }
+
+
+    .one-member-container p {
+        text-align:center;
+    }
+
+
+
+.circle-wrapper {
+margin:0;
+display: inline-block;
+flex-wrap: nowrap;
+
+}
+
+
+.circle-wrapper img {
+height:auto;
+display: inline-block;
+margin:15px;
+
+height:calc(100% / 5);
+width:calc(100% / 5);
+}
+
+
+.these {
+font-weight:bolder;
+}
+
+
+.chunk {
+margin:0 20px;
+height:auto;
+max-width:360px;
+width:95%;
+}
+
+
+.chunk p {
+padding:10px;
+}
+
+
+.chunk img {
+padding-bottom:10px;
+
+}
+
+
+.text-container {
+text-align: left;
+}
+
+
+.three-images {
+display:inline-flex;
+
+}
+
+
+.text-container p1 {
+font-size: 20px;
+font-weight:bolder;
+color:rgb(235,185,77);     
+}
+
+
+.text-container p2 {
+display: block;
+padding-top:10px;
+
+}
+
+
+.afterhome-container {
+display:inline-block;
+background:white;
+padding:30px 0;
+border:2px solid rgb(235,185,77);
+border-radius: 3px;
+margin-top:20px;
+height:auto;
+width:90%;
+}
+
+
+.afterhome-container p1{              /*白字だが効いてる*/
+color:rgb(235,185,77);
+font-size:27px;
+font-weight: bolder;
+
+}
+
+
+.afterhome-container p2 {
+font-size: 19px;
+font-weight: bolder;
+display: inline-block;
+margin:15px 0;
+
+}
+
+
+.afterhome-container p3 {
+font-size: 15px;
+font-weight: bolder;
+padding-top:30px;
+
+}
+
+
+.reject {
+margin-top:50px;
+}
+
+
+.members-first-wrapper {
+text-align:center;
+color:white;
+}
+
+
+
+.sougyou-menber {
+font-size:30px;
+font-weight: 500;
+padding-top:80px;
+margin-bottom:20px;
+}
+
+
+.built {
+font-size:20px;
+margin-bottom:50px;
+}
+
+
+.teacher {
+margin-top:55px;
+font-size: 17px;
+}
+
+
+.name {
+font-size: 17px;
+}
+
+.member-sentence p1{
+opacity: 0;
+}
+
+
+.member-sentence {
+margin:20px 45px 40px 45px;
+text-align: left;
+
+}
+
+
+.member-sentence p{
+font-size: 16px;
+display:inline;
+text-align: left;
+}
+
+
+.circle-image {
+border-radius:100%;
+position: absolute;
+z-index: 2;               /*染谷氏の写真を前面に*/
+margin:0 90px;
+}
+
+
+.q-and-a {
+background-color: white;
+border-radius: 100%;
+display:inline-block;
+height:90px;
+width:90px;
+margin-top:40px;
+color:rgb(235,185,77);
+
+padding-top:32px;               /*table cellとvertical align　が効かないので padding で解決*/
+}
+
+
+.possible-wrapper {
+background-color:rgb(235,185,77);
+height:auto;
+text-align: center;
+padding-bottom: 30px;
+}
+
+
+.possible-container {
+display:inline-block;
+padding:13px 0;
+color: white;
+width:90%;
+    
+}
+
+
+.possible-container p{
+font-size:30px;
+
+padding:0 180px;
+}
+
+
+
+
+
+
+.kanou-nanoka-container{
+position:relative;　
+}
+
+.kanou-nanoka-container::before, .kanou-nanoka-container::after{
+content: '';
+width: 50px;
+height: 50px;
+position: absolute;
+}
+.kanou-nanoka-container::before{
+border-left: solid 3px white;
+border-top: solid 3px white;
+top: 0;
+left: 0;
+}
+.kanou-nanoka-container::after{
+border-right: solid 3px white;
+border-bottom: solid 3px white;
+bottom: 0;
+right: 0;
+}
+
+
+
+
+
+.triangle {
+border-right: 50px solid transparent;
+border-top: 40px solid rgb(235,185,77);
+border-left: 50px solid transparent; 
+width:20px;
+margin-left:46%;
+}
+
+
+.can {
+font-size:30px;
+font-weight: 600;
+margin-top:30px;
+}
+
+
+.third-eye {
+font-weight: bolder;
+margin-bottom:30px;
+}
+
+
+.realize-wrapper {
+text-align: center;
+margin-bottom: 40px;
+}
+
+
+.ceo-wrapper {
+text-align: center;
+margin:30px 0;
+}
+
+.ceo-container {
+display: inline-block;
+}
+
+
+.ceo{
+height:280px;
+border:solid 3px rgb(235,185,77);
+float: left;
+margin-right: 30px;
+}
+
+
+.ceo-talk {
+float: left;
+font-size:20px;
+text-align: left;
+margin-top:20px;
+font-family: italic;
+color:gray;
+}
+
+
+.underline {
+border-bottom:solid 1px gray;
+display: inline-block;
+}
+
+
+.class-wrapper {
+background-image: url("isara image/class.jpg");
+background-repeat: no-repeat;
+background-size:cover;     /*背景画像を全体に設定*/
+height:820px;
+}
+
+
+.isarade-manaberu {
+color:white;
+text-align: center;
+padding-top: 50px;
+}
+
+
+.naiyou {
+font-size:30px;
+}
+
+
+.ichiran {
+margin-bottom:50px;
+
+}
+
+
+.jizen-bankok-wrapper {
+
+}
+
+
+
+.jizen-gakushu-wrapper-one {
+display:inline-block;
+background-color: white;
+border:solid 2px #026EA9;
+border-radius:5px;
+width:380px;
+margin-right: 20px;
+
+}
+
+
+
+.jizen-gakushu-wrapper-one p{
+color:white;    
+background-color: #026EA9;
+line-height:65px;
+margin-bottom: 0;       /*デフォルトの隙間を消す*/
+font-weight: bold;
+}
+
+
+.jizen-gakushu-wrapper-one ul{
+padding: 0;
+margin: 0;
+list-style:none;
+}
+
+
+.jizen-gakushu-wrapper-one li{
+color:black;
+text-align: center;
+background-color: white;
+padding:12px;
+font-weight: bold;
+border-bottom: dotted 0.1px gray;
+}
+
+
+
+
+.jizen-gakushu-wrapper-two {
+display:inline-block;
+background-color: white;
+border:solid 2px #026EA9;
+border-radius:5px;
+width:380px;
+vertical-align:top;
+
+}
+
+
+
+.jizen-gakushu-wrapper-two p{
+color:white;    
+background-color: #026EA9;
+line-height:65px;
+margin-bottom: 0;       /*デフォルトの隙間を消す*/
+font-weight: bold;
+}
+
+
+.jizen-gakushu-wrapper-two ul{
+padding: 0;
+margin: 0;
+list-style:none;
+}
+
+
+.jizen-gakushu-wrapper-two li{
+color:black;
+text-align: center;
+background-color: white;
+padding:12px;
+font-weight: bold;
+border-bottom: dotted 0.1px gray;
+}
+
+
+
+.kouza-hiyou-wrapper {
+background-color: #026EA9;
+height:140px;
+color: white;
+font-size:20px;
+text-align:center;
+padding-top:40px;
+
+
+}
+
+
+.jukou-no-nagare-wrapper{
+text-align:center;       /*テキスト、画像を中央揃え*/
+}
+
+
+.jukou-no-nagare-wrapper p{
+font-size: 25px;
+font-weight: bolder;
+margin:50px 0;
+}
+
+
+.jukou-no-nagare-wrapper img{
+
+}
+
+
+.all-cream-wrapper {
+padding:35px 0;
+}
+
+
+.cream-wrapper {
+padding:0 50px;   /*クリームの背景を中央に狭める*/
+margin:0px 0; 
+}
+
+
+.cream-container {
+background-color:#FEF5E0;
+display:flex;
+border-radius:5px;      /*何故か効かない*/
+border-radius:5px;
+}
+
+
+
+
+
+.cream-icon-wrapper-one {
+margin:40px 50px 0 0;
+text-align:center;
+display: inline-block;
+margin-left:60px;
+}
+
+.cream-icon-wrapper-one p {
+font-weight:bolder;
+font-size:18px;
+margin-top:18px;
+}
+
+
+
+
+
+
+.cream-icon-wrapper-two {
+margin:55px 40px 10px 0;
+text-align:center;
+display: inline-block;
+margin-left:50px;
+}
+
+
+.cream-icon-wrapper-two p{
+font-weight:bolder;
+font-size:18px;
+margin-top:18px;
+}
+
+
+
+
+
+.cream-icon-wrapper-three{
+margin:40px 57px 10px 0;
+text-align:center;
+display: inline-block;
+margin-left:50px;
+}
+
+
+.cream-icon-wrapper-three p{
+font-weight:bolder;
+font-size:18px;
+margin-top:18px;
+}
+
+
+
+.cream-icon-wrapper-four{
+margin:40px 57px 10px 0;
+padding-left: 10px;
+text-align:center;
+display: inline-block;
+margin-left:50px;
+}
+
+
+.cream-icon-wrapper-four p{
+font-weight:bolder;
+font-size:18px;
+margin-top:18px;
+padding-right:9px;
+}
+
+
+
+
+.cream-icon-wrapper-five{
+margin:40px 29px 10px 0;
+
+text-align:center;
+display: inline-block;
+margin-left:30px;
+}
+
+
+.cream-icon-wrapper-five p{
+font-weight:bolder;
+font-size:18px;
+margin-top:18px;
+padding-right:9px;
+}       
+
+
+
+
+
+.cream-text {
+margin:45px 0 10px 0;
+display: inline-block;
+text-align: left;
+}
+
+
+.cream-text p.thin{
+font-size:15px;
+}
+
+
+.cream-text p.sentence {
+color:red;
+font-size:15px;
+}
+
+
+.cream-text p.thick {
+font-weight:bolder;
+}
+
+
+.why-bangkok-wrapper {
+background-image:url("isara image/bangkokbg.jpg");
+height: 480px;
+background-repeat: no-repeat;
+background-size:cover;     /*背景画像を全体に設定*/
+color:white;
+background-position:  center; 
+text-align:left;
+}
+
+
+
+.why-bangkok-container {
+display: inline-block;
+margin:110px 0 0 95px;
+}
+
+
+p.why-bangkok {
+font-size:23px;
+}
+
+
+p.kokomademiruto {
+margin:0;
+font-size:13px;
+}
+
+
+.four-things-wrapper {
+margin:23px 0;
+list-style: none;
+display: block;
+text-align: left;
+}
+
+
+.four-things-wrapper li{
+margin:10px 0;
+margin-left: -40px;
+font-size:15px;
+font-weight: bolder;
+}
+
+
+.kankyouga {
+font-size:20px;
+font-weight:bolder;
+}
+
+
+.sankatokuten-wrapper{
+background-color: #F7C23B;
+height:0 auto;
+text-align:center;
+padding-bottom: 30px;
+}
+
+
+.sankatokuten-container p.sankatokuten{
+font-weight:bold;
+font-size:27px;
+margin-bottom:50px;
+padding-top:70px;
+}
+
+
+.sankatokuten-container p.kouzahiyou {
+margin-bottom:60px;
+font-size:16px;
+font-weight: bolder;
+}
+
+
+.sankatokuten-container span{
+color:white;
+font-size:16px;
+font-weight: bolder;
+}
+
+
+.jisshitsu-tokuten-wrapper {
+position: relative;
+padding-top: 70px;
+height:auto;
+}
+
+
+.sankatokuten-container p.jisshitsu-zero {
+font-weight:bold;
+font-size:27px;
+background-color: #F7C23B;
+display:inline-block;
+padding:0 10px;
+position: absolute;
+right:30%;                  /*文字を真ん中に移動*/
+top:1%;                     /*文字を真ん中に移動*/
+}
+
+
+.three-tokuten-wrapper {
+
+margin:0 50px 10px 50px;
+padding:50px 0;
+border:solid 2px white;
+height:auto;
+}
+
+
+.tokuten {
+background-color: white;
+display: inline-block;
+text-align:center;
+height:253px;
+width:253px;
+border-radius:100%;
+margin:0 55px;
+padding-top:60px;
+}
+
+
+.tokuten p1 {
+color:#F7C23B;
+font-size: 24px;
+}
+
+
+.tokuten p2 {
+font-size:15px;
+
+}
+
+
+.tokuten p3 {
+color: white;
+}
+
+
+.not-volunteer-wrapper {
+background-image:url("isara image/specialdetail.jpg");
+height:525px;
+background-repeat: no-repeat;
+background-size:cover;     /*背景画像を全体に設定*/
+color:white;
+text-align: center;
+}
+
+
+.not-volunteer-wrapper p.not-volunteer{
+font-size:30px;
+padding-top: 60px;
+margin-bottom: 20px;
+}
+
+
+.not-volunteer-wrapper p.kokomademiruto {
+font-size:20px;
+margin-bottom: 60px;
+}
+
+
+.not-volunteer-wrapper p.haishutsu {
+font-size:30px;
+display:inline-block;
+padding:8px 120px;
+}
+
+
+
+
+
+
+.haishutsu{
+position:relative;　
+}
+
+.haishutsu::before, .haishutsu::after{
+content: '';
+width: 50px;
+height: 50px;
+position: absolute;
+}
+.haishutsu::before{
+border-left: solid 3px white;
+border-top: solid 3px white;
+top: 0;
+left: 0;
+}
+.haishutsu::after{
+border-right: solid 3px white;
+border-bottom: solid 3px white;
+bottom: 0;
+right: 0;
+}
+
+
+
+
+
+
+
+.not-volunteer-wrapper p.most-value {
+font-size:20px;
+margin-top: 10px;
+}
+
+
+.message {
+font-size:28px;
+padding-top: 60px;
+margin-bottom: 20px;
+font-weight:bolder;
+}
+
+
+.isshoumono {
+font-size:20px;
+margin-bottom:40px;
+font-weight:bolder;
+}
+
+
+.form-wrapper {
+text-align: center;
+}
+
+
+
+
+
+.message-wrapper {
+text-align: center;
+}
+
+
+.message-wrapper {
+font-size:25px;
+font-weight: bolder;
+padding-top:50px;
+}
+
+
+
+.message-wrapper p.ask-document {
+font-size:16px;
+}
+
+
+.img-message-wrapper {
+
+}
+
+
+.img-message-container {
+text-align: center;
+display:inline-flex;
+
+
+}
+
+
+.img-message-container img {
+display:block;
+}
+
+
+.message-detail {
+text-align: left;
+font-size:14px;
+width:675px;  
+margin-bottom: 70px;
+margin-left: 30px;
+color:#333333;　　　　　　　　　　　　　　　/*黒にかなり近いグレー*/
+}
+
+
+.message-detail p1{
+color:white;
+
+}
+
+
+.form-wrapper {
+height:750px;
+background-color: #F7C23B;
+}
+
+
+input {
+width:770px;
+height:57px;
+border-radius: 5px;
+border:none;           /*デフォルトの枠線を消す*/
+margin:14px;
+padding-left: 10px;
+font-size:13px;
+}
+
+
+input.question {
+margin-top:30px;
+height: 100px;
+}
+input.question::placeholder {
+color: #757575;
+vertical-align:top;
+
+display:inline;
+}
+
+
+input.soushin {
+margin-top:30px;
+border-radius: 40px;
+color: white;
+background-color: #DA6B64;
+font-size:25px;
+letter-spacing: 20px;
+}
+
+
+.yokuaru-shitsumon-wrapper {
+background-color:white;
+text-align: center;
+padding-bottom: 40px;
+}
+
+
+.yokuaru-shitsumon {
+font-size:30px;
+font-weight: bolder;
+padding-top:60px;
+margin-bottom:40px;
+}
+
+
+
+.far.fa-question-circle {
+color: cc;
+}
+
+
+.yokuaru-shitsumon-container p.shitsumon {
+background-color: white;
+display: inline-block;
+width:985px;
+height:60px;
+font-size:22px;
+font-weight: bolder;
+border-radius: 3px;
+border:solid 1px #E5E5E5;
+text-align:left;
+padding-top:14px;
+padding-left:20px;
+}
+
+
+
+
+.arrow{
+display: inline-block;
+position: absolute;
+}
+
+
+.arrow::before{
+content: '';
+width: 15px;
+height: 15px;
+border-top: solid 5px #E5E5E5;
+border-right: solid 5px #E5E5E5;
+transform: rotate(135deg);
+position: absolute;
+margin-top:19px;
+margin-left:-38px;
+}
+
+
+
+.far.fa-question-circle {
+color:#026EA9;
+}
+
+
+
+.footer-wrapper {
+background-color: #ECECEC;
+width:100%;
+display: inline-block;
+text-align: center;
+margin:0 auto;
+padding-top:40px ;
+padding-bottom:10px ;
+}
+
+
+.footer-wrapper p {
+font-size:11px;
+}
+
+
+.footer-wrapper span{
+font-size:11px;
+color:#026EA9;
+}
+
+
+.social-media{
+display:inline-flex;
+}
+
+
+.tweet{
+background:#0C7ABF;
+display: inline-block;
+color: white;
+font-size: 11px;
+height:20px;
+margin-top: 28px;
+padding:2px 10px 0 8px;
+margin-right:5px;
+border-radius: 3px;
+}
+
+
+
+
+.social-media-two{
+display:inline-flex;
+margin-bottom: 30px;
+}
+
+
+.tweet-two{
+background:#0C7ABF;
+display: inline-block;
+color: white;
+font-size: 11px;
+height:20px;
+margin-top: 0px;
+padding:2px 10px 0 8px;
+margin-right:5px;
+border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* スマホ用 */
+@media screen and (min-width: 480px) and ( max-width:768px) {
+
+
+
+p {
+    font-size:;
+}
+
+
+
+body{
+
+}
+
+
+
+.br::before {
+content: "\A" ;
+white-space: pre ;
+}
+
+
+
+.first-view-wrapper {
+width : 100%; /* 画像を枠の100%の横幅にする */
+background-size:100%;   
+}
+
+
+
+
+.first-view-wrapper {
+background-image: url("isara image/main.jpg");
+background-repeat: no-repeat;
+background-size:cover;     /*背景画像を全体に設定*/
+
+}
+
+
+
+
+
+.header-wrapper {
+width:100%;
+z-index: 999;
+position: relative;
+height:60px;
+flex-direction: column;
+align-items: flex-start;
+position:fixed;
+
+}
+
+
+
+
+.header-wrapper img {
+height:30px;
+display: block;
+order:2;
+background-color: rgba(248, 204, 123, 0.541);
+margin:0;
+}
+
+
+
+.ikusei{  
+font-size:10px;
+font-weight: 550;
+padding-bottom: 2px;
+order:1;
+background-color: rgba(248, 204, 123, 0.541);
+line-height: 100%;
+margin:0;
+}
+
+
+
+
+.shiryoseikyu {
+background-color: #DA6B64;
+color: white;
+font-size:14px;
+font-weight: lighter;
+display: inline-block;
+position: absolute;
+height:100%;
+width:75px;
+top:0;
+right:0;
+min-width: 10%;
+}
+
+
+
+
+.karashi-wrapper p{
+font-size: 92%;     
+}
+
+
+
+
+.shiryoseikyu2 {
+background-color: #DA6B64;
+color: white;
+font-size:20px;
+font-weight: lighter;
+display: inline-block;
+margin:0px 0 -30px 0;
+width:90%;
+
+
+}
+
+
+
+
+.road-wrapper {
+height:100;
+
+
+}
+
+
+
+
+.road-wrapper p{
+font-size: 91%;   
+}     
+
+
+
+
+.rokkisei {
+margin-top:40px;
+color:white;
+font-size:25px;
+}
+
+
+.nanakisei {
+margin-top:-35px;
+color:white;
+font-size:25px;
+}
+
+
+.hakkisei {
+margin-top:-35px;
+color:white;
+font-size:25px;
+}
+
+
+
+
+
+.ability {
+font-size:15px;   
+}
+
+
+
+
+.real-freedom {
+width:70%;
+margin: 25px 0 0 0;
+}
+
+
+.isara-towa-wrapper {              /*全体の背景*/
+background-color:#FEF5E0;
+text-align:center;
+height:auto;
+position:relative;
+margin:0 auto;
+}
+
+
+.isara-towa-wrapper p {
+font-size:90%;
+}
+
+
+
+
+.isara-towa {
+margin: 25px 0 0 0;
+background-color:red ;
+margin-bottom: 20px;
+}
+
+
+
+.five-skills-towa {
+}
+
+
+.skill-towa{
+margin:12px 0 -5px 0px;
+}
+
+
+.skill-wrapper{
+height:100%;
+}
+
+
+.skill-wrapper img{
+height:40px;
+}
+
+
+.skill-wrapper p{
+font-size:70%;
+}
+
+
+.skill-wrapper {
+margin:0 5px;
+display: inline-block;
+
+}
+
+
+.oshiemasen-wrapper p {
+font-size:80%;
+}
+
+
+.step-wrapper {
+background-color:white;
+display:inline-block;
+height:100px;
+width:90%;
+border-radius:5px;
+text-align:center;
+margin:8px 5px;
+}
+
+
+
+.step {
+background-color: rgb(235,185,77);
+color:white;
+font-weight: bolder;
+display: inline-block;
+padding:1px 25%;
+margin-top: 12px;
+margin-bottom: 13px;
+border-radius: 4px;
+}
+
+
+.ikkagetumae {
+font-weight:bolder;
+margin:0;
+}
+
+
+.jizeznkadai {
+font-weight:bolder;
+margin:0;
+}
+
+
+
+.muzukashii-wrapper {
+text-align: center; 
+margin-top:-40px;
+}
+
+
+.muzukashii-wrapper p {
+text-align: center; 
+padding:20 0px;
+}
+
+
+.circle-wrapper img {
+height:calc(100% / 5);
+margin:10px 10px;
+width:calc(100% / 5);
+
+}
+
+
+.one-member-container {
+display:inline-block;
+border:solid 2px white;
+color:white;
+width:375px;
+height:auto;
+position: relative;
+margin-top:150px;
+z-index: 1;　　　　　　　　　　　　　/*染谷氏の写真を前面に*/
+}
+
+
+
+.three-images-wrapper{
+
+}
+
+
+.three-images {
+display: flex;
+flex-direction: column;
+}
+
+
+.chunk {
+margin:0 auto;
+max-width:730px;
+margin:10px auto;
+}
+
+.text-container {
+text-align: center;
+}
+
+
+.chunk img {
+height:150px;
+width:100%;
+}
+
+
+.text-container {
+width:90%;
+margin:0 auto;
+}
+
+
+.different-isara-merit-wrapper p{
+font-size:60%;
+margin:0;
+}
+
+
+
+
+.afterhome-container {
+display:inline-block;
+padding:30px 10px;
+border:2px solid rgb(235,185,77);
+border-radius: 3px;
+margin-top:20px;
+height:auto;
+
+}
+
+
+.afterhome-container p1{              /*白字だが効いてる*/
+color:rgb(235,185,77);
+font-size:27px;
+font-weight: bolder;
+}
+
+
+.afterhome-container p2 {
+font-size: 19px;
+font-weight: bolder;
+display: inline-block;
+margin:15px 0;
+
+}
+
+
+.afterhome-container p3 {
+font-size: 15px;
+font-weight: bolder;
+padding-top:30px;
+}
+
+
+.okotowari {
+width:90%;
+text-align: center;
+display: inline-block;
+}
+
+
+.two-members-container {
+text-align:center;
+}
+
+
+
+.members-wrapper {
+    background-image: url("isara image/teacherbg.jpg"); 
+    text-align: center;
+    height:auto;
+    background-repeat: no-repeat;
+    background-size:cover;     /*背景画像を全体に設定*/
+    }
+    
+    
+    .members-wrapper-inside {
+        display:flex;
+    flex-direction: column;
+        text-align: center;
+        margin:0 auto;
+        width:100%    
+        }
+    
+    
+    .one-member-wrapper {
+    display:inline-block;
+    background-color: pink;
+    }
+    
+    
+    .one-member-container {
+        background-color: red;
+        color:white;
+        max-width:700px;
+        width:100%;
+        }
+
+        
+        .member-sentence {
+            margin:20px;
+        }
+
+
+        .one-member-container p {
+            font-size:13px;
+        }
+        .someyasan {
+            height:20%;
+            background:yellow;
+         margin:0 auto;        
+        }
+
+
+.kanou-nanoka-wrapper {
+}
+
+
+.kanou-nanoka-container{
+    width:90%;  
+}
+
+
+
+.kanou-nanoka-container p {
+    font-size:100%;
+    padding:0;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PC用 */
+
+@media screen and (min-width: 769px) {
+
+
+.shiryoseikyu {
+background-color: #DA6B64;
+color: white;
+font-size:14px;
+border-radius: 40px;    
+font-weight: lighter;
+padding:10px 50px;
+display: inline-block;
+position: absolute;
+right: 5%;
+top:23%;
+vertical-align: middle;
+}
+
+
+
+
+
+
+}
